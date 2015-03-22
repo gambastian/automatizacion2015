@@ -1,0 +1,43 @@
+-- @atlcompiler atl2006
+-- @nsURI Families=http://families/1.0 
+-- @nsURI Persons=http://persons/1.0
+
+module Families2Persons;
+create OUT : Persons from IN : Families;
+
+abstract rule Member2Person {
+	from
+		s : Families!Member
+	to 
+		t : Persons!Person (
+			fullName <- s.firstName + ' ' + s.family.lastName	
+		)
+}
+
+rule Father2Man extends Member2Person {
+	from
+		s : Families!Father
+	to
+		t : Persons!Man 
+}
+
+rule Mother2Woman extends Member2Person {
+	from
+		s : Families!Mother
+	to
+		t : Persons!Woman 
+}
+
+rule Son2Man extends Member2Person {
+	from
+		s : Families!Son
+	to
+		t : Persons!Man 
+}
+
+rule Daughter2Woman extends Member2Person {
+	from
+		s : Families!Daughter
+	to
+		t : Persons!Woman 
+}

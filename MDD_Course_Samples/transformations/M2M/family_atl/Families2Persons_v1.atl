@@ -1,0 +1,42 @@
+-- @nsURI Families=http://families/1.0 
+-- @nsURI Persons=http://persons/1.0
+
+
+module Families2Persons;
+create OUT : Persons from IN : Families;	
+
+rule Father2Man { 
+	from
+		s : Families!Father
+	to
+		t : Persons!Man (
+			fullName <- s.firstName + '---' + s.family.lastName	
+		)
+}
+
+rule Mother2Woman {
+	from
+		s : Families!Mother
+	to
+		t : Persons!Woman (
+			fullName <- s.firstName + ' ' + s.family.lastName	
+		)
+}
+
+rule Son2Man {
+	from
+		s : Families!Son
+	to
+		t : Persons!Man (
+			fullName <- s.firstName + ' ' + s.family.lastName	
+		)
+}
+
+rule Daughter2Woman {
+	from
+		s : Families!Daughter
+	to
+		t : Persons!Woman (
+			fullName <- s.firstName + ' ' + s.family.lastName	
+		)
+}

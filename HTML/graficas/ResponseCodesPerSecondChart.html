@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap 101 Template</title>
+
+  <!-- Bootstrap -->
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="http://code.highcharts.com/highcharts.js"></script>
+  <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+
+<script type="text/javascript">//<![CDATA[ 
+
+$(function () {
+    $('#containerLatency').highcharts({
+        chart: {
+            type: 'line'
+        },
+        title: {
+            text: 'ResponseCodesPerSecondChart'
+        },
+        subtitle: {
+            text: 'Servicio: /competitors'
+        },
+        xAxis: {
+            categories: ['00', '01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11']
+        },
+        yAxis: {
+            title: {
+                text: 'Response latencies (ms)'
+            }
+        },
+        plotOptions: {
+            line: {
+                dataLabels: {
+                    enabled: true
+                },
+                enableMouseTracking: false
+            }
+        },
+        series: [{
+            name: 'Architecture 1',
+            data: [7.0, 6.9, 9.5, 14.5, 18.4, 21.5, 25.2, 26.5, 23.3, 18.3, 13.9, 9.6]
+        }, {
+            name: 'Architecure 2',
+            data: [3.9, 4.2, 5.7, 8.5, 11.9, 15.2, 17.0, 16.6, 14.2, 10.3, 6.6, 4.8]
+        }]
+    });
+});
+//]]>  
+
+</script>
+
+
+</head>
+<body>
+  <h1>Reporte</h1>
+  <div class="bs-example">
+    <div id="containerLatency" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+
+  </div>
+
+
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="../js/bootstrap.min.js"></script>
+</body>
+</html>

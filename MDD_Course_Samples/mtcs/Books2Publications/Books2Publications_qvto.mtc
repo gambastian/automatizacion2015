@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.mtcflow.model:MTC xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.mtcflow.model="http://com.mtcflow.mtc/1.1" validateConformance="false">
+  <metamodels name="Books" URI="publications_qvto/BOOKS.ecore" description="" alias="BOOK"/>
+  <metamodels name="Publication" URI="publications_qvto/PUB.ecore" alias="PUBLICATION"/>
+  <models name="Book" URI="publications_qvto/Book.xmi" metamodels="//@metamodels.0" format=""/>
+  <models name="Publication" URI="publications_qvto/publications.xmi" metamodels="//@metamodels.1"/>
+  <inputModels model="//@models.0" modelAlias="bookModels" transformation="//@transformations.0"/>
+  <transformations xsi:type="com.mtcflow.model:M2MTransformation" name="Book2Publication" URI="qvto/SimpleBook2Publication.qvto" implementationClass=""/>
+  <outputModels modelAlias="pubModel" model="//@models.1" transformation="//@transformations.0"/>
+</com.mtcflow.model:MTC>

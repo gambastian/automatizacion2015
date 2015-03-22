@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.mtcflow.model:MTC xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.mtcflow.model="http://com.mtcflow.mtc/1.1">
+  <metamodels name="OO" URI="oo2db/OO.ecore" alias="OO"/>
+  <models name="OO" URI="oo2db/OOInstance.model" metamodels="//@metamodels.0"/>
+  <validations name="Vlidate OO" URI="ValidateOO.evl"/>
+  <modelValidations validation="//@validations.0" models="//@models.0" stopOnError="true"/>
+</com.mtcflow.model:MTC>

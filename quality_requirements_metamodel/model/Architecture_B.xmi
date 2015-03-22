@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ASCII"?>
+<quality_requirements_metamodel:Architecture xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:quality_requirements_metamodel="http://www.example.org/quality_requirements_metamodel" name="ShoppingCart">
+  <dashboards architectures="/">
+    <metrics metric="THREAD_NUMBER" operator="EQUAL" value="1" unit="REQUESTS_PER_SEC"/>
+    <metrics metric="THREAD_RESPONSE_TIME" value="800"/>
+    <scenarios responseMetric="//@dashboards.0/@metrics.0" service="//@services.1" testResult="1"/>
+    <scenarios responseMetric="//@dashboards.0/@metrics.1" service="//@services.1" testResult="1000"/>
+    <scenarios responseMetric="//@dashboards.0/@metrics.1" service="//@services.2" testResult="500"/>
+  </dashboards>
+  <services name="listItems"/>
+  <services name="calculateValue"/>
+  <services name="discardItem"/>
+</quality_requirements_metamodel:Architecture>

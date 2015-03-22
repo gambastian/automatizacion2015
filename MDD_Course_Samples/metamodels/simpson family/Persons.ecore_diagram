@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.1/notation" xmi:id="_slOT0JdNEdymn4gUHIwMpQ" type="Ecore" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_smamoJdNEdymn4gUHIwMpQ" type="2001">
+    <children xmi:type="notation:Node" xmi:id="_smamo5dNEdymn4gUHIwMpQ" type="5001"/>
+    <children xmi:type="notation:Node" xmi:id="_smampJdNEdymn4gUHIwMpQ" type="7001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_smampZdNEdymn4gUHIwMpQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_smamppdNEdymn4gUHIwMpQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_smamp5dNEdymn4gUHIwMpQ"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_smamqJdNEdymn4gUHIwMpQ" type="7002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_smamqZdNEdymn4gUHIwMpQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_smamqpdNEdymn4gUHIwMpQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_smamq5dNEdymn4gUHIwMpQ"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_smamrJdNEdymn4gUHIwMpQ" type="7003">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_smamrZdNEdymn4gUHIwMpQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_smamrpdNEdymn4gUHIwMpQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_smamr5dNEdymn4gUHIwMpQ"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_smamoZdNEdymn4gUHIwMpQ"/>
+    <element xmi:type="ecore:EClass" href="Persons.ecore#//Person"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_smamopdNEdymn4gUHIwMpQ" x="120" y="90"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_smamsJdNEdymn4gUHIwMpQ" type="2001">
+    <children xmi:type="notation:Node" xmi:id="_smams5dNEdymn4gUHIwMpQ" type="5001"/>
+    <children xmi:type="notation:Node" xmi:id="_smamtJdNEdymn4gUHIwMpQ" type="7001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_smamtZdNEdymn4gUHIwMpQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_smamtpdNEdymn4gUHIwMpQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_smamt5dNEdymn4gUHIwMpQ"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_smamuJdNEdymn4gUHIwMpQ" type="7002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_smamuZdNEdymn4gUHIwMpQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_smamupdNEdymn4gUHIwMpQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_smamu5dNEdymn4gUHIwMpQ"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_smamvJdNEdymn4gUHIwMpQ" type="7003">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_smamvZdNEdymn4gUHIwMpQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_smamvpdNEdymn4gUHIwMpQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_smamv5dNEdymn4gUHIwMpQ"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_smamsZdNEdymn4gUHIwMpQ"/>
+    <element xmi:type="ecore:EClass" href="Persons.ecore#//Man"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_smamspdNEdymn4gUHIwMpQ" x="135" y="15"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_smamwJdNEdymn4gUHIwMpQ" type="2001">
+    <children xmi:type="notation:Node" xmi:id="_smamw5dNEdymn4gUHIwMpQ" type="5001"/>
+    <children xmi:type="notation:Node" xmi:id="_smamxJdNEdymn4gUHIwMpQ" type="7001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_smamxZdNEdymn4gUHIwMpQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_smamxpdNEdymn4gUHIwMpQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_smamx5dNEdymn4gUHIwMpQ"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_smamyJdNEdymn4gUHIwMpQ" type="7002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_smamyZdNEdymn4gUHIwMpQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_smamypdNEdymn4gUHIwMpQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_smamy5dNEdymn4gUHIwMpQ"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_smamzJdNEdymn4gUHIwMpQ" type="7003">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_smamzZdNEdymn4gUHIwMpQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_smamzpdNEdymn4gUHIwMpQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_smamz5dNEdymn4gUHIwMpQ"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_smamwZdNEdymn4gUHIwMpQ"/>
+    <element xmi:type="ecore:EClass" href="Persons.ecore#//Woman"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_smamwpdNEdymn4gUHIwMpQ" x="120" y="180"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_slOT0ZdNEdymn4gUHIwMpQ"/>
+  <element xmi:type="ecore:EPackage" href="Persons.ecore#/"/>
+</notation:Diagram>

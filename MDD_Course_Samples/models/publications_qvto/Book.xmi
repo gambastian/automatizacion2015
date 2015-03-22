@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<BOOKS:Book xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns:BOOKS="http://Books/1.0" 
+
+xsi:schemaLocation="http://Books/1.0" 
+
+title="Test Book">
+  <chapters title="Chapter1" nbPages="2" author="Jose"/>
+  <chapters title="Chapter2" nbPages="400" author="Pedro"/>
+</BOOKS:Book>

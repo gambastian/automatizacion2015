@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-Version: 1.0.0.test-course
+Bundle-Name: test-course
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: MDD_Course_Samples
+Require-Bundle: com.mtcflow.engine;bundle-version="1.0.0",
+ com.mtcflow.model;bundle-version="1.0.0"
+

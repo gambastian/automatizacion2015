@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modelink threeWay="true" forceExeedL="false" forceExeedM="false" forceExeedR="false">
+  <model path="/sin-natures/models/oo2db/DBInstance.model" position="LEFT" />
+  <model path="/sin-natures/models/oo2db/Trace.model" position="MIDDLE" />
+  <model path="/sin-natures/models/oo2db/OOInstance.model" position="RIGHT" />
+</modelink>
+

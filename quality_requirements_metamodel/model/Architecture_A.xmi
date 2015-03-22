@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ASCII"?>
+<quality_requirements_metamodel:Architecture xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:quality_requirements_metamodel="http://www.example.org/quality_requirements_metamodel" name="LogUsers">
+  <dashboards architectures="/">
+    <metrics value="1000"/>
+    <scenarios responseMetric="//@dashboards.0/@metrics.0" service="//@services.0" testResult="900"/>
+    <scenarios responseMetric="//@dashboards.0/@metrics.0" service="//@services.1" testResult="1000"/>
+  </dashboards>
+  <services name="getUser"/>
+  <services name="logIn"/>
+</quality_requirements_metamodel:Architecture>

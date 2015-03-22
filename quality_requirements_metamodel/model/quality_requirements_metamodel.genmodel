@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/quality_requirements_metamodel/src" modelPluginID="quality_requirements_metamodel"
+    modelName="Quality_requirements_metamodel" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="7.0" copyrightFields="false"
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>quality_requirements_metamodel.ecore</foreignModel>
+  <genPackages prefix="Quality_requirements_metamodel" disposableProviderFactory="true"
+      ecorePackage="quality_requirements_metamodel.ecore#/">
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="quality_requirements_metamodel.ecore#//Metrics">
+      <genEnumLiterals ecoreEnumLiteral="quality_requirements_metamodel.ecore#//Metrics/RESPONSE_TIME"/>
+      <genEnumLiterals ecoreEnumLiteral="quality_requirements_metamodel.ecore#//Metrics/AVERAGE_TIME"/>
+      <genEnumLiterals ecoreEnumLiteral="quality_requirements_metamodel.ecore#//Metrics/MAX_RESPONSE_TIME"/>
+      <genEnumLiterals ecoreEnumLiteral="quality_requirements_metamodel.ecore#//Metrics/RESPONSE_TIME_90"/>
+      <genEnumLiterals ecoreEnumLiteral="quality_requirements_metamodel.ecore#//Metrics/MEDIAN"/>
+      <genEnumLiterals ecoreEnumLiteral="quality_requirements_metamodel.ecore#//Metrics/ERROR_PERCENTAGE"/>
+      <genEnumLiterals ecoreEnumLiteral="quality_requirements_metamodel.ecore#//Metrics/TROUGHPUT"/>
+      <genEnumLiterals ecoreEnumLiteral="quality_requirements_metamodel.ecore#//Metrics/BANDWIDTH"/>
+      <genEnumLiterals ecoreEnumLiteral="quality_requirements_metamodel.ecore#//Metrics/STANDARD_VARIATION"/>
+      <genEnumLiterals ecoreEnumLiteral="quality_requirements_metamodel.ecore#//Metrics/THREAD_NUMBER"/>
+      <genEnumLiterals ecoreEnumLiteral="quality_requirements_metamodel.ecore#//Metrics/TEST_TIME"/>
+      <genEnumLiterals ecoreEnumLiteral="quality_requirements_metamodel.ecore#//Metrics/LATENCY"/>
+      <genEnumLiterals ecoreEnumLiteral="quality_requirements_metamodel.ecore#//Metrics/SERVICE"/>
+      <genEnumLiterals ecoreEnumLiteral="quality_requirements_metamodel.ecore#//Metrics/ELAPSED_TIME"/>
+      <genEnumLiterals ecoreEnumLiteral="quality_requirements_metamodel.ecore#//Metrics/CODE_TIMES"/>
+      <genEnumLiterals ecoreEnumLiteral="quality_requirements_metamodel.ecore#//Metrics/THREAD_RESPONSE_TIME"/>
+      <genEnumLiterals ecoreEnumLiteral="quality_requirements_metamodel.ecore#//Metrics/THREAD_RESPONSE_PERC"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="quality_requirements_metamodel.ecore#//RelationalOperators">
+      <genEnumLiterals ecoreEnumLiteral="quality_requirements_metamodel.ecore#//RelationalOperators/FEWER_THAN"/>
+      <genEnumLiterals ecoreEnumLiteral="quality_requirements_metamodel.ecore#//RelationalOperators/GREATER_THAN"/>
+      <genEnumLiterals ecoreEnumLiteral="quality_requirements_metamodel.ecore#//RelationalOperators/GREATER_EQ_THAN"/>
+      <genEnumLiterals ecoreEnumLiteral="quality_requirements_metamodel.ecore#//RelationalOperators/FEWER_EQ_THAN"/>
+      <genEnumLiterals ecoreEnumLiteral="quality_requirements_metamodel.ecore#//RelationalOperators/DIFFERENT"/>
+      <genEnumLiterals ecoreEnumLiteral="quality_requirements_metamodel.ecore#//RelationalOperators/EQUAL"/>
+    </genEnums>
+    <genClasses ecoreClass="quality_requirements_metamodel.ecore#//QualityScenario">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference quality_requirements_metamodel.ecore#//QualityScenario/responseMetric"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference quality_requirements_metamodel.ecore#//QualityScenario/service"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute quality_requirements_metamodel.ecore#//QualityScenario/testResult"/>
+      <genOperations ecoreOperation="quality_requirements_metamodel.ecore#//QualityScenario/validate"/>
+    </genClasses>
+    <genClasses ecoreClass="quality_requirements_metamodel.ecore#//Architecture">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference quality_requirements_metamodel.ecore#//Architecture/dashboards"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference quality_requirements_metamodel.ecore#//Architecture/services"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute quality_requirements_metamodel.ecore#//Architecture/name"/>
+    </genClasses>
+    <genClasses ecoreClass="quality_requirements_metamodel.ecore#//Dashboard">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference quality_requirements_metamodel.ecore#//Dashboard/architectures"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference quality_requirements_metamodel.ecore#//Dashboard/scenarios"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference quality_requirements_metamodel.ecore#//Dashboard/qualityScenarios"/>
+    </genClasses>
+    <genClasses ecoreClass="quality_requirements_metamodel.ecore#//Service">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute quality_requirements_metamodel.ecore#//Service/name"/>
+    </genClasses>
+    <genClasses ecoreClass="quality_requirements_metamodel.ecore#//ResponseMetric">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute quality_requirements_metamodel.ecore#//ResponseMetric/metric"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute quality_requirements_metamodel.ecore#//ResponseMetric/operator"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute quality_requirements_metamodel.ecore#//ResponseMetric/value"/>
+      <genOperations ecoreOperation="quality_requirements_metamodel.ecore#//QualityScenario/validate"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

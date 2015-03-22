@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ASCII"?>
+<Families:Family xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:Families="http://families/1.0" lastName="Simpson">
+  <father firstName="Homer"/>
+  <mother firstName="Marge"/>
+  <sons firstName="Bart"/>
+  <daughters firstName="Lisa"/>
+  <daughters firstName="Maggie"/>
+</Families:Family>

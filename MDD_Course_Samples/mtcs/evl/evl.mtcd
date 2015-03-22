@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewpoint:DAnalysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.mtcflow.model="http://com.mtcflow.mtc/1.1" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/description/style/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description/style" xmi:id="_OsjoYGzBEeOXMKeF0gOF6g" selectedViews="_yXJz0HTpEeO7kd1RfsmAcw" version="7.0.0">
+  <models xmi:type="com.mtcflow.model:MTC" href="evl.mtc#/"/>
+  <ownedViews xmi:type="viewpoint:DRepresentationContainer" xmi:id="_yXJz0HTpEeO7kd1RfsmAcw" initialized="true">
+    <ownedRepresentations xmi:type="viewpoint:DSemanticDiagram" xmi:id="_GwhFIHWkEeOHkLQMMBSUFQ" name="EVL">
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_GwhsMHWkEeOHkLQMMBSUFQ" source="GMF_DIAGRAMS">
+        <data xmi:type="notation:Diagram" xmi:id="_GwhsMXWkEeOHkLQMMBSUFQ" type="Sirius" element="_GwhFIHWkEeOHkLQMMBSUFQ" measurementUnit="Pixel">
+          <children xmi:type="notation:Node" xmi:id="_fVd8IMBXEeOz5__Rtx5wdA" type="2001" element="_fVX1gMBXEeOz5__Rtx5wdA">
+            <children xmi:type="notation:Node" xmi:id="_fVejMMBXEeOz5__Rtx5wdA" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_fVejMcBXEeOz5__Rtx5wdA" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_fVgYYsBXEeOz5__Rtx5wdA" type="3003" element="_fVYckMBXEeOz5__Rtx5wdA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_fVgYY8BXEeOz5__Rtx5wdA" fontName="Lucida Grande"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fVgYZMBXEeOz5__Rtx5wdA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_fVd8IcBXEeOz5__Rtx5wdA" fontName="Lucida Grande" fontHeight="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fVd8IsBXEeOz5__Rtx5wdA" x="104" y="76" width="90" height="110"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_fVfxUMBXEeOz5__Rtx5wdA" type="2001" element="_fVE6kMBXEeOz5__Rtx5wdA">
+            <children xmi:type="notation:Node" xmi:id="_fVgYYMBXEeOz5__Rtx5wdA" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_fVgYYcBXEeOz5__Rtx5wdA" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_fVg_cMBXEeOz5__Rtx5wdA" type="3003" element="_fVFhoMBXEeOz5__Rtx5wdA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_fVg_ccBXEeOz5__Rtx5wdA" fontName="Lucida Grande"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fVg_csBXEeOz5__Rtx5wdA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_fVfxUcBXEeOz5__Rtx5wdA" fontName="Lucida Grande" fontHeight="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fVfxUsBXEeOz5__Rtx5wdA" x="104" y="300" width="90" height="110"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_l8VicMBXEeOz5__Rtx5wdA" type="2001" element="_l7pl8MBXEeOz5__Rtx5wdA">
+            <children xmi:type="notation:Node" xmi:id="_l8ghkMBXEeOz5__Rtx5wdA" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_l8ghkcBXEeOz5__Rtx5wdA" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_l8qSkMBXEeOz5__Rtx5wdA" type="3003" element="_l7t3YMBXEeOz5__Rtx5wdA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_l8qSkcBXEeOz5__Rtx5wdA" fontName="Lucida Grande"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_l8qSksBXEeOz5__Rtx5wdA"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_rlip0MBbEeOfd45A0gobRg" type="3001" element="_rjQx4MBbEeOfd45A0gobRg">
+              <children xmi:type="notation:Node" xmi:id="_rn3lEMBbEeOfd45A0gobRg" visible="false" type="5001">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_rn3lEcBbEeOfd45A0gobRg" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_roZJgMBbEeOfd45A0gobRg" type="3003" element="_rjSnEMBbEeOfd45A0gobRg">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_roZJgcBbEeOfd45A0gobRg" fontName="Lucida Grande"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_roZJgsBbEeOfd45A0gobRg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_rlip0cBbEeOfd45A0gobRg" fontColor="13750737" fontName="Lucida Grande" fontHeight="8" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rlip0sBbEeOfd45A0gobRg" x="-12" y="16" width="20" height="20"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_l8ViccBXEeOz5__Rtx5wdA" fontName="Lucida Grande" fontHeight="10" bold="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_l8VicsBXEeOz5__Rtx5wdA" x="528" y="316" width="90" height="110"/>
+          </children>
+          <styles xmi:type="notation:DiagramStyle" xmi:id="_GwhsMnWkEeOHkLQMMBSUFQ"/>
+          <edges xmi:type="notation:Edge" xmi:id="_fVlQ4MBXEeOz5__Rtx5wdA" type="4001" element="_fVcG88BXEeOz5__Rtx5wdA" source="_fVfxUMBXEeOz5__Rtx5wdA" target="_fVd8IMBXEeOz5__Rtx5wdA">
+            <children xmi:type="notation:Node" xmi:id="_fVlQ5MBXEeOz5__Rtx5wdA" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fVlQ5cBXEeOz5__Rtx5wdA" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_fVlQ5sBXEeOz5__Rtx5wdA" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fVl38MBXEeOz5__Rtx5wdA" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_fVl38cBXEeOz5__Rtx5wdA" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fVl38sBXEeOz5__Rtx5wdA" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_fVlQ4cBXEeOz5__Rtx5wdA" routing="Rectilinear" jumpLinkStatus="Above"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_fVlQ4sBXEeOz5__Rtx5wdA" fontName="Lucida Grande" fontHeight="7"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_fVlQ48BXEeOz5__Rtx5wdA" points="[196, 296, 196, 296]$[166, 266, 166, 266]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fVl388BXEeOz5__Rtx5wdA" id="(0.5,0.5)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fVl39MBXEeOz5__Rtx5wdA" id="(0.5,0.5)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_rphx8MBbEeOfd45A0gobRg" type="4001" element="_rj_KoMBbEeOfd45A0gobRg" source="_rlip0MBbEeOfd45A0gobRg" target="_fVfxUMBXEeOz5__Rtx5wdA">
+            <children xmi:type="notation:Node" xmi:id="_rplcUMBbEeOfd45A0gobRg" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rplcUcBbEeOfd45A0gobRg" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_rpnRgMBbEeOfd45A0gobRg" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rpnRgcBbEeOfd45A0gobRg" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_rpsxEMBbEeOfd45A0gobRg" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rpsxEcBbEeOfd45A0gobRg" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_rphx8cBbEeOfd45A0gobRg" routing="Rectilinear"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_rphx8sBbEeOfd45A0gobRg" fontName="Lucida Grande" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_rphx88BbEeOfd45A0gobRg" points="[-634, -2, 367, -15]$[-956, -2, 45, -15]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rqVDMMBbEeOfd45A0gobRg" id="(31.7,0.5)"/>
+          </edges>
+        </data>
+      </ownedAnnotationEntries>
+      <ownedDiagramElements xmi:type="viewpoint:DNode" xmi:id="_fVX1gMBXEeOz5__Rtx5wdA" name="OO" incomingEdges="_fVcG88BXEeOz5__Rtx5wdA" width="9" height="11" resizeKind="NSEW">
+        <target xmi:type="com.mtcflow.model:Metamodel" href="evl.mtc#//@metamodels.0"/>
+        <semanticElements xmi:type="com.mtcflow.model:Metamodel" href="evl.mtc#//@metamodels.0"/>
+        <decorations xmi:type="viewpoint:Decoration" xmi:id="_fVcG8cBXEeOz5__Rtx5wdA">
+          <description xmi:type="description:MappingBasedDecoration" href="platform:/plugin/com.mtcflow.diagram/description/MTC.odesign#//@ownedViewpoints[name='mtc']/@ownedRepresentations[name='MTC%20Diagram']/@defaultLayer/@decorationDescriptionsSet/@decorationDescriptions[name='Corner']"/>
+        </decorations>
+        <decorations xmi:type="viewpoint:Decoration" xmi:id="_fVcG8sBXEeOz5__Rtx5wdA">
+          <description xmi:type="description:MappingBasedDecoration" href="platform:/plugin/com.mtcflow.diagram/description/MTC.odesign#//@ownedViewpoints[name='mtc']/@ownedRepresentations[name='MTC%20Diagram']/@defaultLayer/@decorationDescriptionsSet/@decorationDescriptions[name='MetamodelArtifact']"/>
+        </decorations>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="viewpoint:Square" xmi:id="_fVYckMBXEeOz5__Rtx5wdA" labelSize="10" showIcon="false" iconPath="/com.mtcflow.diagram/icons/model.png" borderSize="2" borderSizeComputationExpression="2" labelPosition="node" width="9" height="11">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_fVYckcBXEeOz5__Rtx5wdA"/>
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/com.mtcflow.diagram/description/MTC.odesign#//@ownedViewpoints[name='mtc']/@ownedRepresentations[name='MTC%20Diagram']/@defaultLayer/@nodeMappings[name='artifact_metamodel']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_fVYcksBXEeOz5__Rtx5wdA" red="209" green="209" blue="209"/>
+          <color xmi:type="viewpoint:RGBValues" xmi:id="_fVYck8BXEeOz5__Rtx5wdA" red="255" green="255" blue="255"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/com.mtcflow.diagram/description/MTC.odesign#//@ownedViewpoints[name='mtc']/@ownedRepresentations[name='MTC%20Diagram']/@defaultLayer/@nodeMappings[name='artifact_metamodel']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="viewpoint:DNode" xmi:id="_fVE6kMBXEeOz5__Rtx5wdA" name="OO" outgoingEdges="_fVcG88BXEeOz5__Rtx5wdA" incomingEdges="_rj_KoMBbEeOfd45A0gobRg" width="9" height="11" resizeKind="NSEW">
+        <target xmi:type="com.mtcflow.model:Model" href="evl.mtc#//@models.0"/>
+        <semanticElements xmi:type="com.mtcflow.model:Model" href="evl.mtc#//@models.0"/>
+        <decorations xmi:type="viewpoint:Decoration" xmi:id="_fVbf4MBXEeOz5__Rtx5wdA">
+          <description xmi:type="description:MappingBasedDecoration" href="platform:/plugin/com.mtcflow.diagram/description/MTC.odesign#//@ownedViewpoints[name='mtc']/@ownedRepresentations[name='MTC%20Diagram']/@defaultLayer/@decorationDescriptionsSet/@decorationDescriptions[name='ModelArtifact']"/>
+        </decorations>
+        <decorations xmi:type="viewpoint:Decoration" xmi:id="_fVcG8MBXEeOz5__Rtx5wdA">
+          <description xmi:type="description:MappingBasedDecoration" href="platform:/plugin/com.mtcflow.diagram/description/MTC.odesign#//@ownedViewpoints[name='mtc']/@ownedRepresentations[name='MTC%20Diagram']/@defaultLayer/@decorationDescriptionsSet/@decorationDescriptions[name='Corner']"/>
+        </decorations>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="viewpoint:Square" xmi:id="_fVFhoMBXEeOz5__Rtx5wdA" labelSize="10" showIcon="false" iconPath="/com.mtcflow.diagram/icons/model.png" borderSize="2" borderSizeComputationExpression="2" labelPosition="node" width="9" height="11">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_fVFhocBXEeOz5__Rtx5wdA"/>
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/com.mtcflow.diagram/description/MTC.odesign#//@ownedViewpoints[name='mtc']/@ownedRepresentations[name='MTC%20Diagram']/@defaultLayer/@nodeMappings[name='artifact_model']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_fVFhosBXEeOz5__Rtx5wdA" red="209" green="209" blue="209"/>
+          <color xmi:type="viewpoint:RGBValues" xmi:id="_fVFho8BXEeOz5__Rtx5wdA" red="255" green="255" blue="255"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/com.mtcflow.diagram/description/MTC.odesign#//@ownedViewpoints[name='mtc']/@ownedRepresentations[name='MTC%20Diagram']/@defaultLayer/@nodeMappings[name='artifact_model']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="viewpoint:DEdge" xmi:id="_fVcG88BXEeOz5__Rtx5wdA" name="conforms" sourceNode="_fVE6kMBXEeOz5__Rtx5wdA" targetNode="_fVX1gMBXEeOz5__Rtx5wdA">
+        <target xmi:type="com.mtcflow.model:Model" href="evl.mtc#//@models.0"/>
+        <ownedStyle xmi:type="viewpoint:EdgeStyle" xmi:id="_fVcuAMBXEeOz5__Rtx5wdA" sourceArrow="OutputFillClosedArrow" targetArrow="OutputClosedArrow" size="2" routingStyle="manhattan">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/com.mtcflow.diagram/description/MTC.odesign#//@ownedViewpoints[name='mtc']/@ownedRepresentations[name='MTC%20Diagram']/@defaultLayer/@edgeMappings[name='Metamodel']/@style"/>
+          <strokeColor xmi:type="viewpoint:RGBValues" xmi:id="_fVcuAcBXEeOz5__Rtx5wdA" red="209" green="209" blue="209"/>
+          <centerLabelStyle xmi:type="viewpoint:CenterLabelStyle" xmi:id="_fVcuAsBXEeOz5__Rtx5wdA" labelSize="7" showIcon="false">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_fVcuA8BXEeOz5__Rtx5wdA"/>
+          </centerLabelStyle>
+        </ownedStyle>
+        <actualMapping xmi:type="description:EdgeMapping" href="platform:/plugin/com.mtcflow.diagram/description/MTC.odesign#//@ownedViewpoints[name='mtc']/@ownedRepresentations[name='MTC%20Diagram']/@defaultLayer/@edgeMappings[name='Metamodel']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="viewpoint:DNode" xmi:id="_l7pl8MBXEeOz5__Rtx5wdA" name="Vlidate OO" width="9" height="11" resizeKind="NSEW">
+        <target xmi:type="com.mtcflow.model:Validation" href="evl.mtc#//@validations.0"/>
+        <semanticElements xmi:type="com.mtcflow.model:Validation" href="evl.mtc#//@validations.0"/>
+        <decorations xmi:type="viewpoint:Decoration" xmi:id="_l75dkMBXEeOz5__Rtx5wdA">
+          <description xmi:type="description:MappingBasedDecoration" href="platform:/plugin/com.mtcflow.diagram/description/MTC.odesign#//@ownedViewpoints[name='mtc']/@ownedRepresentations[name='MTC%20Diagram']/@defaultLayer/@decorationDescriptionsSet/@decorationDescriptions[name='Corner']"/>
+        </decorations>
+        <decorations xmi:type="viewpoint:Decoration" xmi:id="_l75dkcBXEeOz5__Rtx5wdA">
+          <description xmi:type="description:MappingBasedDecoration" href="platform:/plugin/com.mtcflow.diagram/description/MTC.odesign#//@ownedViewpoints[name='mtc']/@ownedRepresentations[name='MTC%20Diagram']/@defaultLayer/@decorationDescriptionsSet/@decorationDescriptions[name='ValidationArtifact']"/>
+        </decorations>
+        <ownedBorderedNodes xmi:type="viewpoint:DNode" xmi:id="_rjQx4MBbEeOfd45A0gobRg" name="V" outgoingEdges="_rj_KoMBbEeOfd45A0gobRg" width="2" height="2">
+          <target xmi:type="com.mtcflow.model:ModelValidation" href="evl.mtc#//@modelValidations.0"/>
+          <semanticElements xmi:type="com.mtcflow.model:ModelValidation" href="evl.mtc#//@modelValidations.0"/>
+          <graphicalFilters xmi:type="viewpoint:HideLabelFilter" xmi:id="_rjmwIMBbEeOfd45A0gobRg"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="viewpoint:Square" xmi:id="_rjSnEMBbEeOfd45A0gobRg" labelFormat="bold" iconPath="/com.mtcflow.diagram/icons/validation.png" labelAlignment="LEFT" borderSize="1" borderSizeComputationExpression="1" labelPosition="node" hideLabelByDefault="true" width="2" height="2">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_rjSnEcBbEeOfd45A0gobRg" red="209" green="209" blue="209"/>
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/com.mtcflow.diagram/description/MTC.odesign#//@ownedViewpoints[name='mtc']/@ownedRepresentations[name='MTC%20Diagram']/@additionalLayers[name='Validation']/@nodeMappings[name='artifact_validacion']/@borderedNodeMappings[name='Model%20Validation']/@style"/>
+            <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_rjSnEsBbEeOfd45A0gobRg"/>
+            <color xmi:type="viewpoint:RGBValues" xmi:id="_rjSnE8BbEeOfd45A0gobRg" red="209" green="209" blue="209"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/com.mtcflow.diagram/description/MTC.odesign#//@ownedViewpoints[name='mtc']/@ownedRepresentations[name='MTC%20Diagram']/@additionalLayers[name='Validation']/@nodeMappings[name='artifact_validacion']/@borderedNodeMappings[name='Model%20Validation']"/>
+        </ownedBorderedNodes>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="viewpoint:Square" xmi:id="_l7t3YMBXEeOz5__Rtx5wdA" labelSize="10" labelFormat="bold" showIcon="false" iconPath="/com.mtcflow.diagram/icons/validation.png" borderSize="2" borderSizeComputationExpression="2" labelPosition="node" width="9" height="11">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_l7t3YcBXEeOz5__Rtx5wdA"/>
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/com.mtcflow.diagram/description/MTC.odesign#//@ownedViewpoints[name='mtc']/@ownedRepresentations[name='MTC%20Diagram']/@additionalLayers[name='Validation']/@nodeMappings[name='artifact_validacion']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_l7t3YsBXEeOz5__Rtx5wdA" red="209" green="209" blue="209"/>
+          <color xmi:type="viewpoint:RGBValues" xmi:id="_l7t3Y8BXEeOz5__Rtx5wdA" red="255" green="255" blue="255"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description:NodeMapping" href="platform:/plugin/com.mtcflow.diagram/description/MTC.odesign#//@ownedViewpoints[name='mtc']/@ownedRepresentations[name='MTC%20Diagram']/@additionalLayers[name='Validation']/@nodeMappings[name='artifact_validacion']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="viewpoint:DEdge" xmi:id="_rj_KoMBbEeOfd45A0gobRg" sourceNode="_rjQx4MBbEeOfd45A0gobRg" targetNode="_fVE6kMBXEeOz5__Rtx5wdA">
+        <target xmi:type="com.mtcflow.model:ModelValidation" href="evl.mtc#//@modelValidations.0"/>
+        <ownedStyle xmi:type="viewpoint:EdgeStyle" xmi:id="_rkA_0MBbEeOfd45A0gobRg" size="2" routingStyle="manhattan">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/com.mtcflow.diagram/description/MTC.odesign#//@ownedViewpoints[name='mtc']/@ownedRepresentations[name='MTC%20Diagram']/@additionalLayers[name='Validation']/@edgeMappings[name='Model%20Validation%20Link']/@style"/>
+          <strokeColor xmi:type="viewpoint:RGBValues" xmi:id="_rkA_0cBbEeOfd45A0gobRg" red="96" green="139" blue="50"/>
+          <centerLabelStyle xmi:type="viewpoint:CenterLabelStyle" xmi:id="_rkA_0sBbEeOfd45A0gobRg">
+            <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_rkA_08BbEeOfd45A0gobRg"/>
+          </centerLabelStyle>
+        </ownedStyle>
+        <actualMapping xmi:type="description:EdgeMapping" href="platform:/plugin/com.mtcflow.diagram/description/MTC.odesign#//@ownedViewpoints[name='mtc']/@ownedRepresentations[name='MTC%20Diagram']/@additionalLayers[name='Validation']/@edgeMappings[name='Model%20Validation%20Link']"/>
+      </ownedDiagramElements>
+      <description xmi:type="description:DiagramDescription" href="platform:/plugin/com.mtcflow.diagram/description/MTC.odesign#//@ownedViewpoints[name='mtc']/@ownedRepresentations[name='MTC%20Diagram']"/>
+      <filterVariableHistory xmi:type="viewpoint:FilterVariableHistory" xmi:id="_GwhFIXWkEeOHkLQMMBSUFQ"/>
+      <activatedLayers xmi:type="description:Layer" href="platform:/plugin/com.mtcflow.diagram/description/MTC.odesign#//@ownedViewpoints[name='mtc']/@ownedRepresentations[name='MTC%20Diagram']/@defaultLayer"/>
+      <activatedLayers xmi:type="description:AdditionalLayer" href="platform:/plugin/com.mtcflow.diagram/description/MTC.odesign#//@ownedViewpoints[name='mtc']/@ownedRepresentations[name='MTC%20Diagram']/@additionalLayers[name='Validation']"/>
+      <target xmi:type="com.mtcflow.model:MTC" href="evl.mtc#/"/>
+    </ownedRepresentations>
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/com.mtcflow.diagram/description/MTC.odesign#//@ownedViewpoints[name='mtc']"/>
+  </ownedViews>
+</viewpoint:DAnalysis>

@@ -1,0 +1,38 @@
+grammar org.xtext.jlog.JlogDsl with org.eclipse.xtext.common.Terminals
+
+generate jlogDsl "http://www.xtext.org/jlog/JlogDsl"
+
+Jlog returns Jlog:
+	'Jlog' name=STRING
+	'{'
+	 arquEstimulos += ArqStimulus (arquEstimulos += ArqStimulus)*
+	'}'
+	;
+
+ArqStimulus returns ArqStimulus:
+	'ArqStimulus{'
+		'stimulusName' stimulusName=STRING ','
+		'minResponseTime' minResponseTime=INT','
+		'medResponseTime' medResponseTime=INT','
+		'maxResponseTime' maxResponseTime=INT','
+		'errorPercentage' errorPercentage=Double','
+		'throughput' throughput=Double','
+		'threadNumber' threadNumber=INT','
+		'latencies{' 
+			(latencies+=Values)? ('|' latencies+=Values)*
+		'}'
+		','
+		'responses{'
+			(responses+=Values)? ('|' responses+=Values)*
+		'}'
+	'}'
+	;
+
+Values returns Values:
+	key=STRING ':' value=INT 
+;
+
+Double returns Double:
+	INT '.' INT
+;
+

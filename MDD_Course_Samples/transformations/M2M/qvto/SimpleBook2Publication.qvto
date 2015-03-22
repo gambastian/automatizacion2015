@@ -1,0 +1,19 @@
+modeltype BOOKS uses BOOKS('http://Books/1.0');
+modeltype PUB uses PUB('http://Publications/1.0');
+
+transformation SimpleBook2Publication(in bookModel:BOOKS,out pubModel:PUB); 
+
+
+main() {
+	bookModel.rootObjects()[Book]->map book2pub();	
+ }
+ 
+mapping Book::book2pub() : PUB::Publication { 
+  title := self.title;
+  authors += self.chapters->authorName();
+  nbPages:=self.chapters-> nbPages->sum();
+}
+
+helper Chapter::authorName() : String {
+	return self.author;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap 101 Template</title>
+
+  <!-- Bootstrap -->
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="http://code.highcharts.com/highcharts.js"></script>
+  <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+
+<script type="text/javascript">//<![CDATA[ 
+
+$(function () {
+  $('#container').highcharts({
+    chart: {
+      type: 'column'
+    },
+    title: {
+      text: 'ResponseTimeChart'
+    },
+    xAxis: {
+      categories: ['Arquitectura 1', 'Arquitectura 2']
+    },
+    yAxis: {
+      min: 0,
+      title: {
+        text: 'Total fruit consumption'
+      }
+    },
+    tooltip: {
+      pointFormat: '<span style="color:{series.color}">{series.name}</span>: <b>{point.y}</b> ({point.percentage:.0f}%)<br/>',
+      shared: true
+    },
+    plotOptions: {
+      column: {
+        stacking: 'percent'
+      }
+    },
+    series: [{
+      name: 'Max',
+      data: [5, 3]
+    }, {
+      name: 'Average',
+      data: [2, 2]
+    }, {
+      name: 'Min',
+      data: [3, 4]
+    }]
+  });
+});
+//]]>  
+
+</script>
+
+
+</head>
+<body>
+  <h1>Reporte</h1>
+  <div class="bs-example">
+    <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+
+  </div>
+
+
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="../js/bootstrap.min.js"></script>
+</body>
+</html>

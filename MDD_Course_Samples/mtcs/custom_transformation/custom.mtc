@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.mtcflow.model:MTC xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.mtcflow.model="http://com.mtcflow.mtc/1.1" validateConformance="false">
+  <metamodels name="Family" URI="simpson family/Families.ecore" alias="FAMILY"/>
+  <metamodels name="Db Instance" URI="oo2db/DB.ecore" alias="DB"/>
+  <metamodels name="Tree" URI="etl/Tree.ecore" alias="TREE"/>
+  <metamodels name="Entity" URI="eml/Entity.ecore" alias="ENTITY"/>
+  <models name="Model 1" URI="family/SimpsonFamily.xmi" metamodels="//@metamodels.0"/>
+  <models name="Model 2" URI="oo2db/DBInstance.model" metamodels="//@metamodels.1"/>
+  <models name="Model 3" URI="etl/tree.model" description="" metamodels="//@metamodels.2"/>
+  <models name="Model Out" URI="test_out.xmi" metamodels="//@metamodels.3"/>
+  <inputModels model="//@models.0" modelAlias="Model 1" transformation="//@transformations.0"/>
+  <inputModels model="//@models.1" modelAlias="Model 2" transformation="//@transformations.0"/>
+  <inputModels model="//@models.2" modelAlias="Model 3" transformation="//@transformations.0"/>
+  <transformations xsi:type="com.mtcflow.model:M2MTransformation" name="Custom Transformation" implementationClass="co.edu.uniandes.ticsw.models.transformation.CustomTransformation"/>
+  <outputModels model="//@models.3" transformation="//@transformations.0"/>
+</com.mtcflow.model:MTC>

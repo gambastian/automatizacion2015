@@ -1,0 +1,18 @@
+EClass.all.size().println("All EClasses amount: ");
+EClass.all.collect(c|c.name).println("All EClasses: ");
+"-----".println();
+EClass.all->select(c|c.abstract=true).size().println("Abstract EClasses amount: ");
+EClass.all->select(c|c.abstract=true).collect(c|c.name).println("Abstract EClasses list: ");
+" ".println();
+EClass.all->select(c|c.abstract=false).size().println("Non-Abstract EClasses amount: ");
+EClass.all->select(c|c.abstract=false).collect(c|c.name).println("Non-Abstract EClasses list sss: ");
+" ".println();
+"List of all attributes for each Eclass".println();
+for (c in EClass.all) { 
+c.eStructuralFeatures->select(p|p.eClass.name='EAttribute')->collect(c|c.name).println("    "+c.name+" -> "+c.eStructuralFeatures->select(p|p.eClass.name='EAttribute')->size()+" : ");
+}
+" ".println();
+"List of all super types for each Eclass".println();
+for (c in EClass.all) { 
+c.eSuperTypes->collect(c|c.name).println("    "+c.name+" -> "+c.eSuperTypes->size()+" : ");
+}

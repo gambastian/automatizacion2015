@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.mtcflow.model:MTC xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.mtcflow.model="http://com.mtcflow.mtc/1.1">
+  <metamodels name="Entity" URI="eml/Entity.ecore" description="" alias="ENTITY"/>
+  <metamodels name="Vocabulary" URI="eml/DomainVocabulary.ecore" description="" alias="VOCABULARY"/>
+  <models name="Source" URI="eml/Source.model" metamodels="//@metamodels.0"/>
+  <models name="Vocabulary" URI="eml/Vocabulary.model" metamodels="//@metamodels.1"/>
+  <models name="Target" URI="eml/Target.model" metamodels="//@metamodels.0"/>
+  <inputModels model="//@models.1" modelAlias="Vocabulary" transformation="//@transformations.0"/>
+  <inputModels model="//@models.0" modelAlias="Source" transformation="//@transformations.0"/>
+  <transformations xsi:type="com.mtcflow.model:M2MTransformation" name="Merge2Entity" URI="eml/Merging.eml" referencedResources="//@referencedResources.0"/>
+  <outputModels modelAlias="Target" model="//@models.2" transformation="//@transformations.0"/>
+  <referencedResources name="Comparator" URI="transformations/M2M/eml/Comparison.ecl"/>
+</com.mtcflow.model:MTC>
